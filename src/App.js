@@ -30,6 +30,8 @@ function changetext(){
 }
   return (
     <>
+
+    <h1>hello react</h1>
       <div className="App">
     <input   onChange={getvalue} /> 
       <button onClick={changetext}> change value</button>
